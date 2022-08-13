@@ -1,14 +1,12 @@
 .navbar{
-    display: flex;
-    justify-content: space-between;
     background-color: #222;
     padding: 1em;
+    display: flex;
 }
 .list{
     display: flex;
     list-style: none;
     align-items: center;
-
 }
 .item{
     margin-right: 1em;
@@ -19,4 +17,7 @@
 }
 .item a:hover{
     color: #ffbb33;
+}
+img{
+    margin-right: 2em;
 }

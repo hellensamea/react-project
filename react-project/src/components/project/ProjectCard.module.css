@@ -1,0 +1,80 @@
+.project_card{
+padding: 0.5em;
+border: 1px solid #7a7a7a;
+border-radius: 5px;
+width: 47%;
+margin: 0.5%;
+height: 250px;
+}
+.project_card h4{
+    background-color: #222;
+    color: #ffbb33;
+    padding: .4em;
+    margin: 0.5em;
+    font-size: 1.3em;
+    text-align: center;
+}
+.project_card p{
+    text-align: center;
+}
+.project_card p span{
+    font-weight: bold;
+}
+.category_text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.category_text span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+    color: grey;
+}
+.category_text .infra{
+    background-color: #ffaebc;
+}
+.category_text .development{
+    background-color: #a0e7e5;
+}
+.category_text .design{
+    background-color: #baf8c8;
+}
+.category_text .planning{
+    background-color: #fbe7c6;
+}
+.project_card_actions {
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .project_card_actions a,
+  .project_card_actions button {
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    color: #222;
+    font-size: 0.9em;
+    padding: 0.6em 1em;
+    margin-right: 1em;
+    cursor: pointer;
+    border: 1px solid #222;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project_card_actions svg {
+    margin-right: 0.5em;
+  }
+  
+  .project_card_actions a:hover,
+  .project_card_actions button:hover {
+    background-color: #222;
+    color: #ffbb33;
+  }

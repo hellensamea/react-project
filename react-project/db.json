@@ -1,28 +1,6 @@
 {
   "projects": [
     {
-      "name": "teste1",
-      "budget": "211",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "costs": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "site",
-      "budget": "2002",
-      "category": {
-        "id": "2",
-        "name": "Development"
-      },
-      "costs": 0,
-      "services": [],
-      "id": 4
-    },
-    {
       "name": "third",
       "budget": "3098",
       "category": {
